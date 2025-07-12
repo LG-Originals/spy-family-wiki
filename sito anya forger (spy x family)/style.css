@@ -1,0 +1,78 @@
+body, html {
+  height: 100%;
+}
+
+#bg {   
+    background-image: url(/photo/anya-index-background.png);
+    height: 50%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#home{ 
+  position: absolute;
+  top: 23%;
+  width: 100%;
+  text-align: center;
+}
+
+#home{
+  color: #57675c;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#main-title{
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 2%;
+    margin-right: 39%;
+    margin-left: 39%;
+    font-size: 16px;
+    backdrop-filter: blur(15px);
+}
+
+#nd-title{
+    margin-right: 1%;
+    margin-right: 39%;
+    margin-left: 39%;
+    text-align: center;
+    font-size: 12px;
+    backdrop-filter: blur(15px);
+}
+
+.characters{
+    backdrop-filter: blur(15px);
+    margin-right: 39%;
+    margin-left: 39%;
+}
+
+#Anya{
+    margin-bottom: 32px;
+    padding-top: 32px;
+}
+
+#Loid{
+    margin-bottom: 32px;
+}
+
+#Yor{
+    margin-bottom: 32px;
+}
+
+#Damian{
+    margin-bottom: 32px;
+}
+
+#Yuri{
+    margin-bottom: 32px;
+}
+
+#Frankie{
+    margin-bottom: 32px;
+}
+
+#Sylvia{
+    padding-bottom: 32px;
+}
