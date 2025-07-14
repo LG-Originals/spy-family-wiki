@@ -1,78 +1,49 @@
-body, html {
-  height: 100%;
-}
-
-#bg {   
-    background-image: url(/photo/anya-index-background.png);
-    height: 50%;
+body{
+    background-image: url(/backgounds/index-background.jpeg);
+    background-repeat: no-repeat;
     background-position: center;
-    background-repeat: repeat;
+    background-attachment: fixed;
     background-size: cover;
+    align-items: center;
 }
 
-#home{ 
-  position: absolute;
-  top: 23%;
-  width: 100%;
-  text-align: center;
+div{
+    margin-bottom: 30px;
 }
 
-#home{
-  color: #57675c;
-  font-size: 25px;
-  font-weight: bold;
+a {
+  color:#57675c;
+  text-decoration: none;
 }
 
-#main-title{
+hr{
+    color: #57675c;
+    border-radius: 5px;
+}
+
+.all-home-page{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 10px;
+}
+
+.all-home-page{
     text-align: center;
-    padding-top: 10px;
-    margin-right: 2%;
-    margin-right: 39%;
-    margin-left: 39%;
-    font-size: 16px;
-    backdrop-filter: blur(15px);
+    align-content: center;
 }
 
-#nd-title{
-    margin-right: 1%;
-    margin-right: 39%;
-    margin-left: 39%;
-    text-align: center;
-    font-size: 12px;
-    backdrop-filter: blur(15px);
+.all-home-page{
+    width: fit-content;
+    height: fit-content;
+    margin: 7% auto;
 }
 
-.characters{
-    backdrop-filter: blur(15px);
-    margin-right: 39%;
-    margin-left: 39%;
+#main-title-home{
+    margin-bottom: -15px;
 }
 
-#Anya{
-    margin-bottom: 32px;
-    padding-top: 32px;
-}
-
-#Loid{
-    margin-bottom: 32px;
-}
-
-#Yor{
-    margin-bottom: 32px;
-}
-
-#Damian{
-    margin-bottom: 32px;
-}
-
-#Yuri{
-    margin-bottom: 32px;
-}
-
-#Frankie{
-    margin-bottom: 32px;
-}
-
-#Sylvia{
-    padding-bottom: 32px;
+#Anya, #Loid, #Yor, #Damian, #Yuri, #Frankie, #Sylvia{
+    font-size: 25px;
 }
