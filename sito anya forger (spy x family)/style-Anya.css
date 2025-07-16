@@ -21,7 +21,7 @@ header{
 }
 
 a{
-    color: #57675c;
+    color: #57675c; 
 }
 
 img{
@@ -54,6 +54,10 @@ td{
 th{
     background-color: #8da99b;
     text-align: center;
+}
+
+.col-1A{
+    width: 10%;
 }
 
 .col-1{
@@ -214,3 +218,178 @@ th{
     margin-right: 5%;
     margin-left: 5%;
 }
+
+@media screen and (min-width: 320px){ /*Mobile devices*/
+    
+    table{
+        display: none;
+    }
+
+    body{
+        background-image: none;
+    }
+
+    a{
+        color: #8aac9b;
+        text-decoration: none;	
+    }
+
+    #anya-page-total{
+        background-color: #2d2d30;
+        color: #E0E0E0;
+        margin: 0%;
+        padding-top: 60px;
+        border-radius: 0%;
+        font-size: 1.5rem;
+    }
+
+    .title{
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 2rem;
+    }
+
+    #anya-intro{
+        margin-right: 0%; 
+        margin-left: 0%;
+        margin-bottom: 25px;
+    }
+
+    #app-anya{
+        margin-left: 0%;
+    }
+
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .container-small{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 25px;
+    }
+
+    #Anya-forger-vertical-full-app{
+        width: 15%;
+        border-radius: 10px;
+    }
+
+    #app-anya-paragraph{
+        width: 100%;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #abilities-anya{
+        margin-left: 0%;
+    }
+
+    #abilities-anya-paragraph{
+        margin-right: 0%;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #anya-reading-yor-mind-photo{
+        width: 30%;
+    }
+
+    #Anya-Forger-classical-language-test{
+        width: 30%;
+    }
+
+    #Telepathy{
+        display: flex;
+        p{
+            width: 100%; 
+            margin-right: 40px;
+        }
+    }
+
+    #above-average-inteligence{
+        width: 100%;
+    }
+
+    #classical-language{
+        display: flex;
+        p{
+            width: 100%; 
+            margin-right: 40px;
+        }
+    }
+
+    #resourcefulness{
+        width: 100%;
+    }
+
+    #basic-self-defence{
+        width: 100%;
+
+    }
+
+    #special-moves{
+        margin-bottom: 25px;
+    }
+
+    header{
+
+        font-size: 1.5rem;
+
+        .hideonmobile{
+            display: none;
+        }
+
+        .menu-button{
+            display: block;
+        }
+    }
+
+    #weaknesses-anya{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    #eclipsing{
+        display: flex;
+        p{
+            width: 100%; 
+            margin-right: 20px;
+        } 
+    }
+
+    #poor-academics{
+        width: 100%;   
+    }
+
+    #Lack-of-Control-Over-Her-Power{
+        display: flex;
+    }
+
+    #Anya-forrger-reads-loid-forger-mind{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 481px){ /*iPads, tablets*/
+    
+}
+
+@media screen and (min-width: 769px){ /*small screens, laptops*/
+   
+}
+
+@media screen and (min-width:  1025px){ /*desktops, largescreens*/
+    
+}
+
+@media screen and (min-width: 1201px){ /*extra large screens, tv*/
+    
+}
+
