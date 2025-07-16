@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*font-family: "Poppins", sans-serif;
+font-family: "Bebas Neue", sans-serif;*/
+
+
+body{
+    background-image: url(/background-phone/phone-background-home.png);
+    background-image: url(/backgounds-desktop/index-background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+}
+
+div{
+    margin-bottom: 30px;
+}
+
+a {
+  color:#57675c;
+  text-decoration: none;
+}
+
+hr{
+    color: #57675c;
+    border-radius: 5px;
+}
+
+.all-home-page{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 10px;
+}
+
+.all-home-page{
+    text-align: center;
+    align-content: center;
+}
+
+.all-home-page{
+    width: fit-content;
+    height: fit-content;
+    margin: 7% auto;
+} 
+
+#main-title-home{
+    margin-bottom: -15px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#characters-name :hover{
+    background-color: #8da99b;
+    border-radius: 10px;
+}
+
+#Anya, #Loid, #Yor, #Damian, #Yuri, #Frankie, #Sylvia{
+    font-size: 1.57rem;
+    font-family: "Poppins", sans-serif;
+}
+
+@media screen and (min-width: 320px){ /*Mobile devices*/
+    body{
+        background-image: url(/background-phone/phone-background-home.png);
+    }
+
+    .all-home-page{
+        margin-top: 45%;
+        font-size: 0.8rem;
+    }
+
+    #Anya, #Loid, #Yor, #Damian, #Yuri, #Frankie, #Sylvia{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 481px){ /*iPads, tablets*/
+    body{
+        background-image: url(/background-phone/phone-background-home.png);
+    }
+
+    .all-home-page{
+        margin-top: 17%;
+        font-size: 1.5rem;
+    }
+
+    #Anya, #Loid, #Yor, #Damian, #Yuri, #Frankie, #Sylvia{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 769px){ /*small screens, laptops*/
+   body{
+       background-image: url(/backgounds-desktop/index-background.jpeg);
+   }
+
+   .all-home-page{
+        margin-top: 11%;
+        font-size: 0.75rem;
+    }
+
+    #Anya, #Loid, #Yor, #Damian, #Yuri, #Frankie, #Sylvia{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width:  1025px){ /*desktops, largescreens*/
+    body{
+       background-image: url(/backgounds-desktop/index-background.jpeg);
+    }
+
+    div{
+        margin-bottom: 15px;
+    }
+
+   .all-home-page{
+        margin-top: 12%;
+        font-size: 0.7rem;
+    }
+
+    #Anya, #Loid, #Yor, #Damian, #Yuri, #Frankie, #Sylvia{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 1201px){ /*extra large screens, tv*/
+    body{
+        background-image: url(/backgounds-desktop/index-background.jpeg);
+    }
+
+   .all-home-page{
+        margin-top: 11%;
+        font-size: 0.75rem;
+    }
+
+    #Anya, #Loid, #Yor, #Damian, #Yuri, #Frankie, #Sylvia{
+        font-size: 1.2rem;
+    }
+}
+
