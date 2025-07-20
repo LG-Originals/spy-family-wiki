@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*font-family: "Poppins", sans-serif;
+font-family: "Bebas Neue", sans-serif;*/
+
+body{
+    background-image: url(/backgounds-desktop/Loid-page.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+}
+
+img{
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+h1, h2{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+a{
+    color: #8da99b;
+}
+
+#inside-bg{
+    background-color: #57675c;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+}
+
+#insider-bg{
+    margin: 1.5rem;
+    padding-bottom: 1rem;
+    padding-top:1rem;
+}
+
+.navbar{
+    background-color:  	#8da99b;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0;
+}
+
+#intro, #personality-no-full{
+    width: 75%;
+}
+
+#forger-family-photo, #becky-falls-for-loid, #loid-next-mission, #loid-doesnt-understand, #loid-assists-the-first-tonitrus, #loid-lonely-past, #loid-quotes-bondman, #loid-imagines{
+    margin-left: 2rem;
+}
+
+#loid-forger-full-app, #loid-caring, #loid-cheers-up-yor, #loid-vs-bomb-dog, #loid-discipline-anya, #loid-showing-emotions, #loid-lies-to-his-dad, #loid-realization{
+    margin-right: 2rem;
+}
+
+
+@media (max-width: 767px){
+    h1{
+        margin-top: 40px;
+    }
+    #insider-bg{
+        margin: 0rem;
+        padding-bottom: 1rem;
+        padding-top:1rem;
+    }
+
+    #intro, #personality-no-full{
+        width: 100%;
+    }
+
+    #forger-family-photo, #loid-forger-full-app, #becky-falls-for-loid, #loid-next-mission, #loid-caring, #loid-doesnt-understand, #loid-cheers-up-yor, #loid-vs-bomb-dog, #loid-assists-the-first-tonitrus, #loid-discipline-anya, #loid-lonely-past, #loid-showing-emotions, #loid-quotes-bondman, #loid-lies-to-his-dad, #loid-imagines, #loid-realization{
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    #loid-forger-full-app{
+        width: 200px;
+    }
+}

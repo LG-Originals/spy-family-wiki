@@ -3,393 +3,134 @@
 /*font-family: "Poppins", sans-serif;
 font-family: "Bebas Neue", sans-serif;*/
 
-
 body{
     background-image: url(/backgounds-desktop/Anya-page.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    align-items: center;
-}
-
-header{
-  position: fixed;
-  top: 0; 
-  left: 0; 
-  width: 100%; 
-}
-
-a{
-    color: #57675c; 
+    font-family: "Poppins", sans-serif;
 }
 
 img{
-    width: 100%;
-    margin: 0 auto;
     border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+a{
+    color: #287233;
+}
+
+h1, h2{
+    font-family: "Bebas Neue", sans-serif;
 }
 
 table{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 3px solid white;
     border-collapse: collapse;
-    width: 90%;
-    table-layout: fixed;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 25px;
-}
-
-th,td{
-    border: 3px solid whitesmoke;
     padding: 10px;
-    text-align: left;
-    vertical-align: middle;
-}
-
-td{
-    display: table-cell;
-    vertical-align: middle;
+    text-align: center;
 }
 
 th{
     background-color: #8da99b;
-    text-align: center;
 }
 
-.col-1A{
-    width: 10%;
-}
-
-.col-1{
+#img-title, #titolo-tab1{
     width: 15%;
 }
 
-.col-2{
-    width: 20%;
+#Awarded{
+    width: 11%;
 }
 
-.col-3{
-    width: 10%;
+
+.stella{
+    width: 120px;
 }
 
-.table-sec-title{
-    text-align: center;
-    vertical-align: middle;
+.no-center{
+    text-align: left;
+    width: 30%;
 }
 
-.title{
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 1.7rem;
+#friendship-crash, #rising-hope, #star-catch, #Killer_Punch{
+    width: 250px;
 }
 
-#anya-page-total{
-    background-color: #2d2d30;
-    background-color:  	#fab3ad;
-    color: #E0E0E0;
-    color: black;
-    font-size: 1rem;
-    font-family: "Poppins", sans-serif;
-    padding: 25px;
-    margin-right: 20%;
-    margin-left: 20%;
+#inside-bg{
+    background-color: #fab3ad;
+    border-radius: 10px;
     margin-top: 5%;
-    margin-bottom: 3%;
-    border-radius: 10px;
+    margin-bottom: 2.5%;
 }
 
-#anya-intro{
-    margin-right: 40%; 
-    margin-left: 5%;
-    margin-bottom: 25px;
+#insider-bg{
+    margin: 1.5rem;
+    padding-bottom: 1rem;
+    padding-top:1rem;
 }
 
-#app-anya{
-    margin-left: 5%;
+.navbar{
+    background-color:  	#8da99b;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0;
 }
 
-.container{
-    width: 100%;
-    display: flex;
-    gap: 40px;
+#Intro, #Above-Average-Intelligence, #special-moves, #Resourcefulness, #not-all{
+    width: 75%;
 }
 
-.container-small{
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    margin-bottom: 25px;
+#anya-full-app{
+    margin-right: 2rem;
+    margin-bottom: 1rem;
 }
 
-#app-anya-paragraph{
-   width: 60%;
-   margin-left: 0%;
-   display: flex;
-   flex-direction: column;
-   gap: 15px;
+#involuntary-use, #eclipsing{
+    margin-left: 2rem;
+    margin-right: 1rem;
 }
 
-#abilities-anya{
-    margin-left: 5%;
+.poor, .crak{
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-#abilities-anya-paragraph{
-    margin-right: 5%;
-    margin-left: 0%;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    
+#anya-punch-damian, #test, #Basic-Self-Defense, #Anya_Eclipsing, #anya-reads-loid-mind{
+    margin-left: 1rem;
 }
 
-#Telepathy{
-    display: flex;
-    p{
-        width: 80%; 
-        margin-right: 40px;
-    }
-}
-
-#above-average-inteligence{
-    width: 70%;
-}
-
-#classical-language{
-    display: flex;
-    p{
-        width: 33%; 
-        margin-right: 40px;
-    }
-}
-
-#resourcefulness{
-    width: 80%;
-}
-
-#basic-self-defence{
-    width: 50%;
-
-}
-
-#special-moves{
-    margin-bottom: 25px;
-}
-
-#weaknesses-anya{
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-#eclipsing{
-   display: flex;
-    p{
-        width: 30%; 
-        margin-right: 40px;
-    } 
-}
-
-#poor-academics{
-    width: 100%;
-    
-}
-
-#Anya-forger-vertical-full-app{
-    width: 23%;
-    border-radius: 10px;
-}
-
-#anya-reading-yor-mind-photo{
-    width: 60%;
-}
-
-#Anya-Forger-classical-language-test{
-    width: 55%;
-}
-
-#anya-forger-eclipsing-photo{
-    width: 15%;
-}
-
-#Anya-forrger-reads-loid-forger-mind{
-    width: 40%;
-    
-}
-
-#quotes-anya{
-    margin-right: 5%;
-    margin-left: 5%;
-}
-
-@media screen and (min-width: 320px){ /*Mobile devices*/
-    
-    table{
+@media (max-width: 767px){
+    .no-display{
         display: none;
     }
-
-    body{
-        background-image: none;
+    h1{
+        margin-top: 40px;
+    }
+    #insider-bg{
+        margin: 0rem;
+        padding-bottom: 1rem;
+        padding-top:1rem;
+    }
+    .poor, .crak, #anya-full-app, #involuntary-use, #eclipsing, #Basic-Self-Defense{
+        margin-left: 0rem;
+        margin-right: 0rem;
     }
 
-    a{
-        color: #8aac9b;
-        text-decoration: none;	
-    }
-
-    #anya-page-total{
-        background-color: #2d2d30;
-        color: #E0E0E0;
-        margin: 0%;
-        padding-top: 60px;
-        border-radius: 0%;
-        font-size: 1.5rem;
-    }
-
-    .title{
-        font-family: "Bebas Neue", sans-serif;
-        font-size: 2rem;
-    }
-
-    #anya-intro{
-        margin-right: 0%; 
-        margin-left: 0%;
-        margin-bottom: 25px;
-    }
-
-    #app-anya{
-        margin-left: 0%;
-    }
-
-    .container{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-    }
-
-    .container-small{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        margin-bottom: 25px;
-    }
-
-    #Anya-forger-vertical-full-app{
-        width: 15%;
-        border-radius: 10px;
-    }
-
-    #app-anya-paragraph{
-        width: 100%;
-        margin-left: 0%;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    #abilities-anya{
-        margin-left: 0%;
-    }
-
-    #abilities-anya-paragraph{
-        margin-right: 0%;
-        margin-left: 0%;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    #anya-reading-yor-mind-photo{
-        width: 30%;
-    }
-
-    #Anya-Forger-classical-language-test{
-        width: 30%;
-    }
-
-    #Telepathy{
-        display: flex;
-        p{
-            width: 100%; 
-            margin-right: 40px;
-        }
-    }
-
-    #above-average-inteligence{
+    #Intro, #Above-Average-Intelligence, #special-moves, #Resourcefulness, #not-all{
         width: 100%;
     }
 
-    #classical-language{
-        display: flex;
-        p{
-            width: 100%; 
-            margin-right: 40px;
-        }
-    }
-
-    #resourcefulness{
-        width: 100%;
-    }
-
-    #basic-self-defence{
-        width: 100%;
-
-    }
-
-    #special-moves{
-        margin-bottom: 25px;
-    }
-
-    header{
-
-        font-size: 1.5rem;
-
-        .hideonmobile{
-            display: none;
-        }
-
-        .menu-button{
-            display: block;
-        }
-    }
-
-    #weaknesses-anya{
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-
-    #eclipsing{
-        display: flex;
-        p{
-            width: 100%; 
-            margin-right: 20px;
-        } 
-    }
-
-    #poor-academics{
-        width: 100%;   
-    }
-
-    #Lack-of-Control-Over-Her-Power{
-        display: flex;
-    }
-
-    #Anya-forrger-reads-loid-forger-mind{
-        width: 60%;
+    #anya-full-app, .anya-reading-mind, #test, #anya-punch-damian, #Anya_Eclipsing{
+        margin: auto;
+        margin-bottom: 1rem;
     }
 }
-
-@media screen and (min-width: 481px){ /*iPads, tablets*/
-    
-}
-
-@media screen and (min-width: 769px){ /*small screens, laptops*/
-   
-}
-
-@media screen and (min-width:  1025px){ /*desktops, largescreens*/
-    
-}
-
-@media screen and (min-width: 1201px){ /*extra large screens, tv*/
-    
-}
-
