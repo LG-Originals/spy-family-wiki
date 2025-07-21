@@ -14,7 +14,6 @@ body{
 
 img{
     border-radius: 10px;
-    margin-bottom: 1rem;
 }
 
 a{
@@ -106,6 +105,7 @@ th{
 
 #anya-punch-damian, #test, #Basic-Self-Defense, #Anya_Eclipsing, #anya-reads-loid-mind{
     margin-left: 1rem;
+    margin-bottom: 1rem;
 }
 
 @media (max-width: 767px){

@@ -14,7 +14,6 @@ body{
 
 img{
     border-radius: 10px;
-    margin-bottom: 1rem;
 }
 
 h1, h2{
@@ -46,16 +45,18 @@ a{
     right: 0;
 }
 
-#intro, #personality-no-full{
+#intro, #personality-no-full, .no-max{
     width: 75%;
 }
 
-#forger-family-photo, #becky-falls-for-loid, #loid-next-mission, #loid-doesnt-understand, #loid-assists-the-first-tonitrus, #loid-lonely-past, #loid-quotes-bondman, #loid-imagines{
+#forger-family-photo, #becky-falls-for-loid, #loid-next-mission, #loid-doesnt-understand, #loid-assists-the-first-tonitrus, #loid-lonely-past, #loid-quotes-bondman, #loid-imagines, #anya-reads-loid-mind, #forgers-reveals-extra-outfit, .no-attached1, #loid-tennis, #loid-saves-ship, #loid-aims-his-gun, #loid-deflects-the-bullet, #anya-finds-loid-radio, #loid-plants-a-listening-device, #loid-tired{
     margin-left: 2rem;
+    margin-bottom: 1rem;
 }
 
-#loid-forger-full-app, #loid-caring, #loid-cheers-up-yor, #loid-vs-bomb-dog, #loid-discipline-anya, #loid-showing-emotions, #loid-lies-to-his-dad, #loid-realization{
+#loid-forger-full-app, #loid-caring, #loid-cheers-up-yor, #loid-vs-bomb-dog, #loid-discipline-anya, #loid-showing-emotions, #loid-lies-to-his-dad, #loid-realization, #loid-reveals-id, #loid-unmasking, #loid-sss-notice, #loid-vs-goons, #loid-pilots-a-plane, #loid-draws-bondman, #loid-scares-franky, #loid-admits-he-cant-understand-anya{
     margin-right: 2rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -69,11 +70,11 @@ a{
         padding-top:1rem;
     }
 
-    #intro, #personality-no-full{
+    #intro, #personality-no-full, .no-max{
         width: 100%;
     }
 
-    #forger-family-photo, #loid-forger-full-app, #becky-falls-for-loid, #loid-next-mission, #loid-caring, #loid-doesnt-understand, #loid-cheers-up-yor, #loid-vs-bomb-dog, #loid-assists-the-first-tonitrus, #loid-discipline-anya, #loid-lonely-past, #loid-showing-emotions, #loid-quotes-bondman, #loid-lies-to-his-dad, #loid-imagines, #loid-realization{
+    #forger-family-photo, #loid-forger-full-app, #becky-falls-for-loid, #loid-next-mission, #loid-caring, #loid-doesnt-understand, #loid-cheers-up-yor, #loid-vs-bomb-dog, #loid-assists-the-first-tonitrus, #loid-discipline-anya, #loid-lonely-past, #loid-showing-emotions, #loid-quotes-bondman, #loid-lies-to-his-dad, #loid-imagines, #loid-realization, #anya-reads-loid-mind, #forgers-reveals-extra-outfit, .no-attached1, #loid-tennis, #loid-saves-ship, #loid-aims-his-gun, #loid-deflects-the-bullet, #loid-reveals-id, #loid-unmasking, #loid-sss-notice, #loid-vs-goons, #loid-pilots-a-plane, #loid-draws-bondman, #loid-scares-franky, #anya-finds-loid-radio, #loid-plants-a-listening-device, #loid-admits-he-cant-understand-anya, #loid-tired{
         margin: auto;
         margin-bottom: 1rem;
     }
